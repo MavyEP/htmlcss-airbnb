@@ -1,0 +1,184 @@
+/*regole generali del sito*/
+*{       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+}
+/*personalizzazione dei link "a"*/
+a {    color: white;
+}
+
+a:hover{    color: red;
+    border-bottom: 1px solid red;
+    padding-bottom: 17px;
+}
+/*HEADER*/
+header p {
+    height: 80px;
+    width: 100%;
+}
+
+menu {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+}
+
+.menulogo{
+    vertical-align: middle;
+    padding-right: 80px;
+    height: 80px;
+}
+
+.menuitems li {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    padding: 0 50px;
+}
+
+menu div{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+li a{    text-decoration: none;
+}
+
+menu ul{    display: inline-block;
+}
+/*FINE HEADER*/
+
+/*INIZIO MAIN */
+    /* sezione chitarra*/
+.temachitarra{
+    background-image: url(immagini/chitarra.jpg);
+    border:5px solid Ivory;
+    border-radius: 10px;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.temachitarra h2{
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    /*sezione batteria*/
+.temabatteria{
+    border-radius: 10px;
+    background-image: url(immagini/drum.jpg);
+    border:5px solid Ivory;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.temabatteria h2{
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    /*sezione studio*/
+.temastudio{
+   border-radius: 10px;
+   background-image: url(immagini/studio.jpg);
+   border:5px solid white;
+
+   background-size:cover;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+}
+
+.temastudio h2{
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*fine SEZIONI*/
+
+main{    background-color: black;
+}
+/*impostazione layer per oscurimento Foto*/
+.layer {
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/*FINE MAIN*/
+/*FOOTER*/
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+  position:
+
+
+}
+footer h5{
+    display: inline-block;
+}
+.footer {
+    text-align:left;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.footer img {
+    width: 110px;
+}
+
+footer p {
+    text-align:left;
+    font-size: 7px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: -10px;
+    display: inline;
+}
+p span{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.social img{
+    width: 15px;
+}
